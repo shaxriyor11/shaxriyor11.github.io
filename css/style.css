@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+body{
+    min-width: 320px;
+}
+
+
+
+    /* ........................... header start......................... */
+
+
+
+
+header{
+    width: 100%;
+    height: auto;
+    background-size: contain;
+    background: url("../images/bonus2-Uyga-Vazifa_01.jpg");
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+    width: 250px;
+}
+
+header nav ul li a{
+
+    font-weight: 400;
+    font-size: 12px;
+    color:#fff;
+}
+
+header nav ul a.active{
+    font-weight: 700;
+    color:#b78601;
+}
+
+header nav ul li a:hover{
+    font-weight: 700;
+    color:#b78601;
+    text-decoration: none;
+}
+header nav .silka{
+    text-decoration: none;
+    color:#fff;
+    font-size: 20px;
+}
+header nav a span{
+    color: #b78601;
+}
+.header{
+    margin-top: 100px ;
+}
+.header h1{
+    font-size: 55px;
+    color: #b78601;
+    margin-bottom: 35px;
+}
+.header .p45{
+    margin-bottom: 35px;
+    font-size: 45px;
+    color: #fff;
+}
+.header p{
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 35px;
+}
+.header button{
+    
+   padding: 20px 90px 20px 90px;
+   color: white;
+   border: 1px solid white;
+    border-radius: 30px;
+    background: none;
+    margin: 50px 0;
+}
+
+.header button span{
+    color: white;
+}
+
+
+    /* ........................... section start......................... */
+
+
+
+
+
+
+section p{
+    margin: 90px 0px 50px 0px;
+    font-size: 22px;
+    font-weight: 500px;
+    color: #565656;
+}
+section .container .row img{
+    margin-bottom: 15px;
+}
+.section {
+    width: 100%;
+   height: auto;
+    background: #181818;
+}
+.section .container .row .naw{
+    width: 0px;
+    height: auto;
+}
+.container .par{
+    
+    padding-top: 150px;
+   
+}
+
+.section .container .row .naw img{
+   margin-left: 100px;
+}
+
+.section .container .row .naw h2{
+    font-size: 22px;
+    color: #ffffff;
+    text-align: center;
+}
+.section .container .row .naw p{
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    
+}
+.section .container .row .naw .fa-facebook{
+    background: white;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 21px;
+    margin: -10px 15px 0px 50px;
+   padding-top: 5px;
+}
+
+
+/* ........................... main start......................... */
+main .row{
+    width: auto;
+    height: auto;
+    margin-bottom: 150px;
+}
+main .col-lg-3 .blok{
+    box-shadow: 5px 5px 10px;
+    width: 250px;
+    height: 350px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    background: black;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+main  .col-lg-1 h2{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+ 
+main .col-lg-3 .blok h2{
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+    padding: 24px 0px 0px 15px;
+}
+
+
+main .col-lg-3 .blok p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #ffffff;
+    padding: 0px 30px 20px 15px;
+} 
+
+
+/* ........................... section1 start......................... */
+
+
+
+
+
+
+
+
+.section1{
+    background: url("../images/bacgraund.jpg");
+    width: auto;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section1 .container .row h2{
+    margin-top: 200px;
+    font-size: 75px;
+    color: #ffffff;
+    font-weight: 500;
+}
+.section1 .container .row p{
+    font-size: 20px;
+    color: #ffffff;
+}
+.section1 button{
+    
+    padding: 20px 90px 20px 90px;
+    color: white;
+    border: 1px solid white;
+     border-radius: 30px;
+     background: none;
+     margin: 100px 0px 100px 0px;
+ }
+ 
+.section1 button span{
+     color: white;
+ }
+
+
+
+
+ /* ........................... footer  start......................... */
+
+
+ footer{
+    width: auto;
+     height: auto;
+     background: #181818;
+
+
+
+ }
+ 
+footer .container .row  ul{
+    display: flex;
+    justify-content: space-around;
+
+  
+}
+
+footer .container .row  ul li a{
+    
+    font-weight: 400;
+    font-size: 12px;
+    color:#fff;
+}
+
+footer .container .row  ul a.active{
+    font-weight: 700;
+    color:#b78601;
+}
+
+footer .container .row  ul li a:hover{
+    font-weight: 700;
+    color:#b78601;
+    text-decoration: none;
+}
+
+footer .container .row  .silka{
+    text-decoration: none;
+    color:#fff;
+    font-size: 20px;
+}
+
+footer .container .row  a span{
+    color: #b78601;
+}
+
+footer .container .row .col-lg-6{
+    color: #7b7b7b;
+     font-size: 14px;
+}
+
+footer .container .row .col-lg-2{
+    text-align: right;
+    color: #ffffff;
+   font-size: 18px;
+}
+
+footer .container .row:nth-child(1){
+    padding-top: 100px;
+}
+
+footer .container .row .col-lg-12 .silka{
+    text-decoration: none;
+    color:#fff;
+    font-size: 20px;
+}
+
+footer .container .row .col-lg-12 span{
+    color: #b78601;
+}
+
+footer .container .row .col-lg-12 p{
+    color: #ffffff;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+/* ........................... media start......................... */
+
+
+
+/* lg  992 = 1199*/
+
+@media(max-width:1199) {
+    
+      
+    
+}
+
+/* md 768  991 */
+
+@media(max-width:991) {
+    
+}
+
+/* sm 576 767*/
+
+@media(max-width:767) {
+    .section .container .row .naw{
+      margin: auto;
+      text-align: center;
+   }
+
+}
+
+/* ex-sm 320 */
+
+@media(max-width:575) {
+     
+}
+
+
+
